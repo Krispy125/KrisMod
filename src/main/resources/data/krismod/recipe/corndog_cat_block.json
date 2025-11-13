@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "krismod:corndog_cat_block"
+    ],
+  "result": {
+    "count": 9,
+    "id": "krismod:corndog_cat"
+  }
+}
