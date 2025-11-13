@@ -1,3 +1,5 @@
+Kris' Mod
+This is a complete port of my original Kris' Mod from forge to NeoForge since its overall just better!
 
 Installation information
 =======
