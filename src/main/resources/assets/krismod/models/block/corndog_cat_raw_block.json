@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "krismod:block/corndog_cat_raw_block"
+  }
+}

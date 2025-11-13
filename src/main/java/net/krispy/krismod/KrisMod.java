@@ -1,5 +1,6 @@
 package net.krispy.krismod;
 
+import net.krispy.krismod.block.ModBlocks;
 import net.krispy.krismod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -36,6 +37,7 @@ public class KrisMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -62,6 +64,10 @@ public class KrisMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.CORNDOG_CAT);
             event.accept(ModItems.CORNDOG_CAT_RAW);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.CORNDOG_CAT_BLOCK);
+            event.accept(ModBlocks.CORNDOG_CAT_RAW_BLOCK);
         }
 
     }
