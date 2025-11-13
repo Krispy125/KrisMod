@@ -3,5 +3,8 @@
   "item.krismod.corndog_cat_raw": "Raw Corndog Cat",
 
   "item.krismod.corndog_cat_block": "Corndog Cat Block",
-  "item.krismod.corndog_cat_raw_block": "Raw Corndog Cat Block"
+  "item.krismod.corndog_cat_raw_block": "Raw Corndog Cat Block",
+
+  "creativetab.krismod.corndog_cat_items": "Corndog Cat Items",
+  "creativetab.krismod.corndog_cat_blocks": "Corndog Cat Blocks"
 }
